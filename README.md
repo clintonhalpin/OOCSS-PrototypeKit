@@ -1,7 +1,10 @@
-OOCSS-StarterKit
+OOCSS-PrototypeKit
 ================
 
-OOCSS + Angular + Bower + Gulp + Express
+### OOCSS + Angular + Bower + Gulp + Express
+
+This repo contains a bunch of the things I need to add into a project to prototype quickly. 
+
 
 ================
 The MIT License (MIT)
