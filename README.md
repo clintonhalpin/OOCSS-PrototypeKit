@@ -3,11 +3,10 @@ OOCSS-StarterKit
 
 OOCSS + Angular + Bower + Gulp + Express
 
-
-
+================
 The MIT License (MIT)
 
-Copyright (c) 2014 (Clinton Halpin)[http://twitter.com/clintonhalpin]
+Copyright (c) 2014 [Clinton Halpin](http://twitter.com/clintonhalpin)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
