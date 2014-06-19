@@ -1,0 +1,19 @@
+{
+  "name": "OOCSS-StarterKit",
+  "version": "0.0.0",
+  "homepage": "https://github.com/clintonhalpin/OOCSS-StarterKit",
+  "authors": [
+    "clintonhalpin <clintonhalpin@gmail.com>"
+  ],
+  "description": "OOCSS + SASS + Angular + Bower + Gulp + Express",
+  "keywords": [
+    "OOCSS",
+    "SASS",
+    "Angular",
+    "Bower",
+    "Gulp",
+    "Express"
+  ],
+  "license": "MIT",
+  "private": true
+}

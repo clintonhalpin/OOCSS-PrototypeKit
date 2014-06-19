@@ -1,0 +1,114 @@
+/* ==========================================================================
+    Common Font Declarations
+   ========================================================================== */
+
+
+
+
+/* fw - Font Weight
+   -------------------------------------------------------------------------- */
+.fw-light {
+    font-weight: 100;
+}
+
+.fw-regular {
+    font-weight: 500;
+}
+
+.fw-semibold {
+    font-weight: 700;
+}
+
+.fw-bold {
+    font-weight: 900;
+}
+
+
+
+
+/* lh - Line Height
+   -------------------------------------------------------------------------- */
+
+.lh-small {
+    line-height: 105%;
+}
+
+.lh-normal {
+    line-height: 125%;
+}
+
+.lh-large {
+    line-height: 150%;
+}
+
+
+
+
+/* fc - Font Colors
+   -------------------------------------------------------------------------- */
+
+.fc-darkest {
+    color : $text-darkest;
+}
+
+.fc-dark {
+    color : $text-dark;
+}
+
+.fc-normal {
+    color : $text-normal;
+}
+
+.fc-light {
+    color : $text-light;
+}
+
+.fc-white {
+    color: $text-white;
+}
+
+
+
+
+/* fs - Font Size
+   -------------------------------------------------------------------------- */
+.fs-xxl {
+    font-size: 5rem;
+}
+
+.fs-xl {
+    font-size: 4rem;
+}
+
+.fs-l {
+    font-size: 3rem;
+}
+
+.fs-m {
+    font-size: 2rem;
+}
+
+.fs-s {
+    font-size: 1rem;
+}
+
+
+
+
+
+/* Text Transform
+   -------------------------------------------------------------------------- */
+
+.all-caps {
+    text-transform: uppercase;
+}
+
+
+
+
+/* Font Style
+   -------------------------------------------------------------------------- */
+
+.italic {
+    font-style: italic;
+}

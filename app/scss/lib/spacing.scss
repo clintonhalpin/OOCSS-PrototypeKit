@@ -1,0 +1,259 @@
+/* ==========================================================================
+    Spacing - Margin and Padding
+    Adopted and Yanked from https://github.com/mrmrs/css-uncut
+
+    m - Margin
+    p - Padding
+
+    * Modifers
+
+    a - all
+    s - small
+    m - medium
+    l - large
+    xl - xlarge
+    xxl - xxlarge
+
+   ========================================================================== */
+
+
+
+
+/* Variables
+   -------------------------------------------------------------------------- */
+$small : 10px;
+$medium : 20px;
+$large : 40px;
+$xlarge : 50px;
+$xxlarge : 100px;
+
+
+
+
+/* n - None and Center
+   -------------------------------------------------------------------------- */
+
+.m-center {  
+    margin-left: auto !important; 
+    margin-right: auto !important;  
+}
+
+.man {  margin: 0;  }
+
+.pan {  margin: 0;  }
+
+
+
+
+
+/* m - Margin
+   -------------------------------------------------------------------------- */
+
+/* n - None */
+
+.mtn {  margin-top: 0;  }
+
+.mrn {  margin-right: 0;  }
+
+.mbn {  margin-bottom: 0;  }
+
+.mln {  margin-left: 0;  }
+
+/* s - Small */
+
+.mas {  margin: $small;  }
+
+.mts {  margin-top: $small;  }
+
+.mrs {  margin-right: $small;  }
+
+.mbs {  margin-bottom: $small;  }
+
+.mls {  margin-left: $small;  }
+
+/* m - Medium */
+
+.mam {  margin: $medium;  }
+
+.mtm {  margin-top: $medium;  }
+
+.mrm {  margin-right: $medium;  }
+
+.mbm {  margin-bottom: $medium;  }
+
+.mlm {  margin-left: $medium;  }
+
+/* l - large */
+
+.mal {  margin: $large;  }
+
+.mtl {  margin-top: $large;  }
+
+.mrl {  margin-right: $large;  }
+
+.mbl {  margin-bottom: $large;  }
+
+.mll {  margin-left: $large;  }
+
+/* xl - xlarge */
+
+.maxl {  margin: $xlarge;  }
+
+.mtxl {  margin-top: $xlarge;  }
+
+.mrxl {  margin-right: $xlarge;  }
+
+.mbxl {  margin-bottom: $xlarge;  }
+
+.mlxl {  margin-left: $xlarge;  }
+
+/* xxl - xxlarge */
+
+.maxxl {  margin: $xxlarge;  }
+
+.mtxxl {  margin-top: $xxlarge;  }
+
+.mrxxl {  margin-right: $xxlarge;  }
+
+.mbxxl {  margin-bottom: $xxlarge;  }
+
+.mlxxl {  margin-left: $xxlarge;  }
+
+
+
+
+
+/* p - Padding
+   -------------------------------------------------------------------------- */
+
+/* n - None */
+
+.pan {
+    padding: 0;
+}
+
+.ptn {
+    padding-top: 0;
+}
+
+.prn {
+    padding-right: 0;
+}
+
+.pbn {
+    padding-bottom: 0;
+}
+
+.pln {
+    padding-left : 0;
+}
+
+/* s - Small */
+
+.pas {
+    padding: $small;
+}
+
+.pts {
+    padding-top: $small;
+}
+
+.prs {
+    padding-right: $small;
+}
+
+.pbs {
+    padding-bottom: $small;
+}
+
+.pls {
+    padding-left: $small;
+}
+
+/* m - Medium */
+
+.pam {
+    padding: $medium;
+}
+
+.ptm {
+    padding-top: $medium;
+}
+
+.prm {
+    padding-right: $medium;
+}
+
+.pbm {
+    padding-bottom: $medium;
+}
+
+.plm {
+    padding-left: $medium;
+}
+
+/* l - large */
+
+.pal {
+    padding: $large;
+}
+
+.ptl {
+    padding-top: $large;
+}
+
+.prl {
+    padding-right: $large;
+}
+
+.pbl {
+    padding-bottom: $large;
+}
+
+.pll {
+    padding-left: $large;
+}
+
+/* xl - xlarge */
+
+.paxl {
+    padding: $xlarge;
+}
+
+.ptxl {
+    padding-top: $xlarge;
+}
+
+.prxl {
+    padding-right: $xlarge;
+}
+
+.pbxl {
+    padding-bottom: $xlarge;
+}
+
+.plxl {
+    padding-left: $xlarge;
+}
+
+/* xxl - xxlarge */
+
+.paxxl {
+    padding: $xxlarge;
+}
+
+.ptxxl {
+    padding-top: $xxlarge;
+}
+
+.prxxl {
+    padding-right: $xxlarge;
+}
+
+.pbxxl {
+    padding-bottom: $xxlarge;
+}
+
+.plxxl {
+    padding-left: $xxlarge;
+}
