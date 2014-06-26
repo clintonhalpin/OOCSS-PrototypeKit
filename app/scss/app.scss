@@ -8,7 +8,7 @@
 
 /* @necolas Reset
    -------------------------------------------------------------------------- */
-@import '/bower_components/normalize-css/normalize.css';
+@import 'bower_components/normalize-css/normalize.css';
 
 
 
@@ -16,7 +16,7 @@
 
 /* Variables
    -------------------------------------------------------------------------- */
-@import '/app/scss/lib/variables';
+@import 'app/scss/lib/variables';
 
 
 
@@ -24,7 +24,7 @@
 
 /* Micro CSS Classes to Control common CSS declarations
    -------------------------------------------------------------------------- */
-@import '/app/scss/lib/spacing';
-@import '/app/scss/lib/clearfix';
-@import '/app/scss/lib/fonts';
-@import '/app/scss/lib/display';
+@import 'app/scss/lib/spacing';
+@import 'app/scss/lib/clearfix';
+@import 'app/scss/lib/fonts';
+@import 'app/scss/lib/display';

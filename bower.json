@@ -1,11 +1,11 @@
 {
-  "name": "OOCSS-StarterKit",
+  "name": "oocssproto"
   "version": "0.0.0",
-  "homepage": "https://github.com/clintonhalpin/OOCSS-StarterKit",
+  "homepage": "https://github.com/clintonhalpin/oocssproto",
   "authors": [
     "clintonhalpin <clintonhalpin@gmail.com>"
   ],
-  "description": "OOCSS + SASS + Angular + Bower + Gulp + Express",
+  "description": "Some good things to prototype with",
   "keywords": [
     "OOCSS",
     "SASS",
