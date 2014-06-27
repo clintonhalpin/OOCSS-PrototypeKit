@@ -16,50 +16,7 @@
 
    ========================================================================== */
 
-
-
-
-/* Variables
-   -------------------------------------------------------------------------- */
-$small : 10px;
-$medium : 20px;
-$large : 40px;
-$xlarge : 50px;
-$xxlarge : 100px;
-
-
-
-
-/* n - None and Center
-   -------------------------------------------------------------------------- */
-
-.m-center {  
-    margin-left: auto !important; 
-    margin-right: auto !important;  
-}
-
-.man {  margin: 0;  }
-
-.pan {  margin: 0;  }
-
-
-
-
-
-/* m - Margin
-   -------------------------------------------------------------------------- */
-
-/* n - None */
-
-.mtn {  margin-top: 0;  }
-
-.mrn {  margin-right: 0;  }
-
-.mbn {  margin-bottom: 0;  }
-
-.mln {  margin-left: 0;  }
-
-/* s - Small */
+/* m  - small  */
 
 .mas {  margin: $small;  }
 
@@ -69,9 +26,19 @@ $xxlarge : 100px;
 
 .mbs {  margin-bottom: $small;  }
 
-.mls {  margin-left: $small;  }
+.mms {  margin-left: $small;  }
 
-/* m - Medium */
+.mvs { 
+  margin-top: $small; 
+  margin-bottom: $small;
+}
+
+.mhs { 
+  margin-right: $small; 
+  margin-left: $small;
+}
+
+/* m  - medium  */
 
 .mam {  margin: $medium;  }
 
@@ -81,7 +48,18 @@ $xxlarge : 100px;
 
 .mbm {  margin-bottom: $medium;  }
 
-.mlm {  margin-left: $medium;  }
+.mmm {  margin-left: $medium;  }
+
+.mvm { 
+  margin-top: $medium; 
+  margin-bottom: $medium;
+}
+
+.mhm { 
+  margin-right: $medium; 
+  margin-left: $medium;
+}
+
 
 /* l - large */
 
@@ -95,6 +73,16 @@ $xxlarge : 100px;
 
 .mll {  margin-left: $large;  }
 
+.mvl { 
+  margin-top: $large; 
+  margin-bottom: $large;
+}
+
+.mhl { 
+  margin-right: $large; 
+  margin-left: $large;
+}
+
 /* xl - xlarge */
 
 .maxl {  margin: $xlarge;  }
@@ -107,6 +95,16 @@ $xxlarge : 100px;
 
 .mlxl {  margin-left: $xlarge;  }
 
+.mvxl { 
+  margin-top: $xlarge; 
+  margin-bottom: $xlarge;
+}
+
+.mhxl { 
+  margin-right: $xlarge; 
+  margin-left: $xlarge;
+}
+
 /* xxl - xxlarge */
 
 .maxxl {  margin: $xxlarge;  }
@@ -118,6 +116,16 @@ $xxlarge : 100px;
 .mbxxl {  margin-bottom: $xxlarge;  }
 
 .mlxxl {  margin-left: $xxlarge;  }
+
+.mvxxl { 
+  margin-top: $xxlarge; 
+  margin-bottom: $xxlarge;
+}
+
+.mhxxl { 
+  margin-right: $xxlarge; 
+  margin-left: $xxlarge;
+}
 
 
 
@@ -170,6 +178,16 @@ $xxlarge : 100px;
     padding-left: $small;
 }
 
+.pvs { 
+  padding-top: $small; 
+  padding-bottom: $small;
+}
+
+.phs { 
+  padding-right: $small; 
+  padding-left: $small;
+}
+
 /* m - Medium */
 
 .pam {
@@ -190,6 +208,16 @@ $xxlarge : 100px;
 
 .plm {
     padding-left: $medium;
+}
+
+.pvm { 
+  padding-top: $medium; 
+  padding-bottom: $medium;
+}
+
+.phm { 
+  padding-right: $medium; 
+  padding-left: $medium;
 }
 
 /* l - large */
@@ -214,6 +242,16 @@ $xxlarge : 100px;
     padding-left: $large;
 }
 
+.pvl { 
+  padding-top: $large; 
+  padding-bottom: $large;
+}
+
+.phl { 
+  padding-right: $large; 
+  padding-left: $large;
+}
+
 /* xl - xlarge */
 
 .paxl {
@@ -236,6 +274,16 @@ $xxlarge : 100px;
     padding-left: $xlarge;
 }
 
+.pvxl { 
+  padding-top: $xlarge; 
+  padding-bottom: $xlarge;
+}
+
+.phxl { 
+  padding-right: $xlarge; 
+  padding-left: $xlarge;
+}
+
 /* xxl - xxlarge */
 
 .paxxl {
@@ -256,4 +304,14 @@ $xxlarge : 100px;
 
 .plxxl {
     padding-left: $xxlarge;
+}
+
+.pvxxl { 
+  padding-top: $xxlarge; 
+  padding-bottom: $xxlarge;
+}
+
+.phxxl { 
+  padding-right: $xxlarge; 
+  padding-left: $xxlarge;
 }
