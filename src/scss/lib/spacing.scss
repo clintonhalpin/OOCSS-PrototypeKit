@@ -1,0 +1,241 @@
+/* ==========================================================================
+    Spacing - Margin and Padding 
+
+    m - Margin
+    p - Padding
+
+    * Modifers
+
+    a - all
+    n - none
+
+    s - small
+    m - medium
+    l - large
+    xl - xlarge
+    xxl - xxlarge
+
+    * ex. man = margin all 0
+
+   ========================================================================== */
+   
+/* Spacing Variables 
+   -------------------------------------------------------------------------- */
+
+$small : 0.5;
+$medium : 1;
+$large : 2;
+$xlarge : 4;
+$xxlarge : 6;
+
+
+/* m - Margin
+-------------------------------------------------------------------------- */
+/* m  - small  */
+
+.mas {  margin: #{$small}rem; }
+.mts {  margin-top: #{$small}rem; }
+.mrs {  margin-right: #{$small}rem; }
+.mbs {  margin-bottom: #{$small}rem; }
+.mms {  margin-left: #{$small}rem; }
+
+.mvs { 
+  margin-top: #{$small}rem; 
+  margin-bottom: #{$small}rem;
+}
+
+.mhs { 
+  margin-right: #{$small}rem; 
+  margin-left: #{$small}rem;
+}
+
+/* m  - medium  */
+
+.mam {  margin: #{$medium}rem; }
+.mtm {  margin-top: #{$medium}rem; }
+.mrm {  margin-right: #{$medium}rem; }
+.mbm {  margin-bottom: #{$medium}rem; }
+.mmm {  margin-left: #{$medium}rem; }
+
+.mvm { 
+  margin-top: #{$medium}rem; 
+  margin-bottom: #{$medium}rem;
+}
+
+.mhm { 
+  margin-right: #{$medium}rem; 
+  margin-left: #{$medium}rem;
+}
+
+/* l - large */
+
+.mal {  margin: #{$large}; }
+.mtl {  margin-top: #{$large}; }
+.mrl {  margin-right: #{$large}; }
+.mbl {  margin-bottom: #{$large}; }
+.mll {  margin-left: #{$large}; }
+
+.mvl { 
+  margin-top: #{$large}; 
+  margin-bottom: #{$large};
+}
+
+.mhl { 
+  margin-right: #{$large}; 
+  margin-left: #{$large};
+}
+
+/* xl - xlarge */
+
+.maxl {  margin: #{$xlarge}; }
+.mtxl {  margin-top: #{$xlarge}; }
+.mrxl {  margin-right: #{$xlarge}; }
+.mbxl {  margin-bottom: #{$xlarge}; }
+.mlxl {  margin-left: #{$xlarge}; }
+
+.mvxl { 
+  margin-top: #{$xlarge}; 
+  margin-bottom: #{$xlarge};
+}
+
+.mhxl { 
+  margin-right: #{$xlarge}; 
+  margin-left: #{$xlarge};
+}
+
+/* xxl - xxlarge */
+
+.maxxl {  margin: #{$xxlarge}rem; }
+.mtxxl {  margin-top: #{$xxlarge}rem; }
+.mrxxl {  margin-right: #{$xxlarge}rem; }
+.mbxxl {  margin-bottom: #{$xxlarge}rem; }
+.mlxxl {  margin-left: #{$xxlarge}rem; }
+
+.mvxxl { 
+  margin-top: #{$xxlarge}rem; 
+  margin-bottom: #{$xxlarge}rem;
+}
+
+.mhxxl { 
+  margin-right: #{$xxlarge}rem; 
+  margin-left: #{$xxlarge}rem;
+}
+
+
+
+
+
+/* p - Padding
+   -------------------------------------------------------------------------- */
+
+/* s - Small */
+
+.pas { padding: #{$small}rem; }
+.pts { padding-top: #{$small}rem; }
+.prs { padding-right: #{$small}rem; }
+.pbs { padding-bottom: #{$small}rem; }
+.pls { padding-left: #{$small}rem; }
+
+.pys { 
+  padding-top: #{$small}rem; 
+  padding-bottom: #{$small}rem;
+}
+
+.pxs { 
+  padding-right: #{$small}rem; 
+  padding-left: #{$small}rem;
+}
+
+/* m - Medium */
+
+.pam { padding: #{$medium}rem; }
+.ptm { padding-top: #{$medium}rem; }
+.prm { padding-right: #{$medium}rem; }
+.pbm { padding-bottom: #{$medium}rem; }
+.plm { padding-left: #{$medium}rem; }
+
+.pym { 
+  padding-top: #{$medium}rem; 
+  padding-bottom: #{$medium}rem;
+}
+
+.pxm { 
+  padding-right: #{$medium}rem; 
+  padding-left: #{$medium}rem;
+}
+
+/* l - large */
+
+.pal { padding: #{$large}; }
+.ptl { padding-top: #{$large}; }
+.prl { padding-right: #{$large}; }
+.pbl { padding-bottom: #{$large}; }
+.pll { padding-left: #{$large}; }
+
+.pyl { 
+  padding-top: #{$large}; 
+  padding-bottom: #{$large};
+}
+
+.pxl { 
+  padding-right: #{$large}; 
+  padding-left: #{$large};
+}
+
+/* xl - xlarge */
+
+.paxl { padding: #{$xlarge}; }
+.ptxl { padding-top: #{$xlarge}; }
+.prxl { padding-right: #{$xlarge}; }
+.pbxl { padding-bottom: #{$xlarge}; }
+.plxl { padding-left: #{$xlarge}; }
+
+.pyxl { 
+  padding-top: #{$xlarge}; 
+  padding-bottom: #{$xlarge};
+}
+
+.pxxl { 
+  padding-right: #{$xlarge}; 
+  padding-left: #{$xlarge};
+}
+
+/* xxl - xxlarge */
+
+.paxxl { padding: #{$xxlarge}rem; }
+.ptxxl { padding-top: #{$xxlarge}rem; }
+.prxxl { padding-right: #{$xxlarge}rem; }
+.pbxxl { padding-bottom: #{$xxlarge}rem; }
+.plxxl { padding-left: #{$xxlarge}rem; }
+
+.pyxxl { 
+  padding-top: #{$xxlarge}rem; 
+  padding-bottom: #{$xxlarge}rem;
+}
+
+.pxxxl { 
+  padding-right: #{$xxlarge}rem; 
+  padding-left: $xxlarge;
+}
+
+
+
+
+
+/* n - None
+   -------------------------------------------------------------------------- */
+
+.pan { padding: 0; }
+.ptn { padding-top: 0; }
+.prn { padding-right: 0; }
+.pbn { padding-bottom: 0; }
+.pln { padding-left : 0; }
+.pxn { padding-right: 0; padding-left: 0; }
+.pxn { padding-top: 0; padding-bottom: 0; }
+.man { margin: 0; }
+.mtn { margin-top: 0; }
+.mrn { margin-right: 0; }
+.mbn { margin-bottom: 0; }
+.mln { margin-left: 0; }
+.mxn { margin-right: 0; margin-left: 0; }
+.myn { margin-top: 0; margin-bottom: 0; }

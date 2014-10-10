@@ -1,0 +1,69 @@
+/* ==========================================================================
+    Brand Colors
+   ========================================================================== */
+
+
+
+
+
+/* Brand Primary
+   -------------------------------------------------------------------------- */
+ .bg-primary {
+ 	background-color: $brand-primary;
+ }
+
+ .primary {
+ 	color: $brand-primary;
+ }
+
+
+
+
+
+ /* Colors
+   -------------------------------------------------------------------------- */
+.darkest {
+    color : $darkestgray;
+}
+
+.dark {
+    color : $darkgray;
+}
+
+.normal {
+    color : $gray;
+}
+
+.light {
+    color : $lightgray;
+}
+
+.white {
+    color: $whitegray;
+}
+
+
+
+
+
+/* Grayscale BG
+   -------------------------------------------------------------------------- */
+.bg-darkest {
+    background-color : $darkestgray;
+}
+
+.bg-dark {
+    background-color : $darkgray;
+}
+
+.bg-normal {
+    background-color : $gray;
+}
+
+.bg-light {
+    background-color : $lightgray;
+}
+
+.bg-white {
+    background-color: $whitegray;
+}

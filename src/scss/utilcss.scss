@@ -1,6 +1,6 @@
 /* ==========================================================================
    @clintonhalpin
-   /app/scss/app.scss
+   /app/scss/utilcss.scss
    ========================================================================== */
 
 
@@ -16,7 +16,7 @@
 
 /* Variables
    -------------------------------------------------------------------------- */
-@import 'app/scss/lib/variables';
+@import 'lib/variables';
 
 
 
@@ -24,7 +24,7 @@
 
 /* Micro CSS Classes to Control common CSS declarations
    -------------------------------------------------------------------------- */
-@import 'app/scss/lib/spacing';
-@import 'app/scss/lib/clearfix';
-@import 'app/scss/lib/fonts';
-@import 'app/scss/lib/display';
+@import 'lib/spacing';
+@import 'lib/clearfix';
+@import 'lib/fonts';
+@import 'lib/display';

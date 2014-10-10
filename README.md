@@ -1,9 +1,7 @@
-oocssproto
+utilcss
 ================
 
-### Prototype using all the buzzwords
-
-This repo contains a bunch of the things I need to add into a project to prototype quickly. 
+A tiny css util library 
 
 
 **License**

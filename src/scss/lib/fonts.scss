@@ -1,0 +1,157 @@
+/* ==========================================================================
+    Common Font Declarations
+   ========================================================================== */
+
+
+
+
+/* fw - Font Weight
+   -------------------------------------------------------------------------- */
+.fw-9 {
+  font-weight: 900;
+}
+
+.fw-8 {
+  font-weight: 800;
+}
+
+.fw-7 {
+  font-weight: 700;
+}
+
+.fw-6 {
+  font-weight: 600;
+}
+
+.fw-5 {
+  font-weight: 500;
+}
+
+.fw-4 {
+  font-weight: 400;
+}
+
+.fw-3 {
+  font-weight: 300;
+}
+
+.fw-2 {
+  font-weight: 200;
+}
+
+.fw-1 {
+  font-weight: 100;
+}
+
+
+
+
+/* lh - Line Height
+   -------------------------------------------------------------------------- */
+
+.lh-small {
+    line-height: 105%;
+}
+
+.lh-normal {
+    line-height: 125%;
+}
+
+.lh-large {
+    line-height: 150%;
+}
+
+
+
+
+
+/* fs - Font Size
+   -------------------------------------------------------------------------- */
+
+.fs-xxl {
+    font-size: 5rem;
+}
+
+.fs-xl {
+    font-size: 4rem;
+}
+
+.fs-l {
+    font-size: 3rem;
+}
+
+.fs-m {
+    font-size: 2rem;
+}
+
+.fs-s {
+    font-size: 1rem;
+}
+
+
+
+
+
+/* tt - Text Transform
+   -------------------------------------------------------------------------- */
+
+.tt-uppercase {
+    text-transform: uppercase;
+}
+
+.tt-none {
+  text-transform: none;
+}
+
+.tt-capitalize {
+  text-transform: capitalize;
+}
+
+.tt-lowercase {
+  text-transform: lowercase;
+}
+
+
+
+
+
+/* fs - Font Style
+   -------------------------------------------------------------------------- */
+
+.fs-normal {
+  font-style: normal;
+}
+
+.fs-italic {
+  font-style: italic;
+}
+
+.fs-oblique {
+  font-style: oblique;
+}
+
+
+
+
+/* td - Text Decoration
+   -------------------------------------------------------------------------- */
+
+.td-u {
+    text-decoration: underline;
+}
+
+.td-o {
+    text-decoration: overline;
+}
+
+.td-l {
+    text-decoration: line-through;
+}
+
+.td-n {
+    text-decoration: none;
+}
+
+.td-uo {
+    text-decoration: underline overline;
+}

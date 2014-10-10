@@ -28,11 +28,15 @@
 
 
 
+
 /* mwi - Max Width
    -------------------------------------------------------------------------- */
 .mwi {
     width: $max-widthcontainer;
 }
+
+
+
 
 
 /* d - Display
@@ -53,21 +57,25 @@
     display: table-cell;
 }
 
+.dn {
+    display: none;
+}
+
 
 
 
 
 /* va - Vertical Align 
    -------------------------------------------------------------------------- */
-.va-m {
+.vam {
     vertical-align: middle;
 }
 
-.va-t {
+.vat {
     vertical-align: top;
 }
 
-.va-b {
+.vab {
     vertical-align: bottom;
 }
 
@@ -77,23 +85,10 @@
 
 /* f - Float
    -------------------------------------------------------------------------- */
-.f-l {
+.fl {
     float: left;
 }
 
-.f-r {
+.fr {
     float: right;
-}
-
-
-
-
-/* Hide and show
-   -------------------------------------------------------------------------- */
-.hidden {
-    display: none;
-}
-
-.visible {
-    display: block;
 }
