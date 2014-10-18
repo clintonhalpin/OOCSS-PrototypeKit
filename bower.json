@@ -1,18 +1,9 @@
 {
-  "name": "oocssproto"
+  "name": "utilcss",
   "version": "0.0.0",
-  "homepage": "https://github.com/clintonhalpin/oocssproto",
+  "homepage": "https://github.com/clintonhalpin/utilcss",
   "authors": [
     "clintonhalpin <clintonhalpin@gmail.com>"
-  ],
-  "description": "Some good things to prototype with",
-  "keywords": [
-    "OOCSS",
-    "SASS",
-    "Angular",
-    "Bower",
-    "Gulp",
-    "Express"
   ],
   "license": "MIT",
   "private": true
